@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48122c418d8c7b24b95f785db77e6c0c, type: 3}
+  m_Name: Setup
+  m_EditorClassIdentifier: 
+  selectIndex: 0
+  modeIndex: 0
+  levelIndex: 0
+  scenesToLoad: 
+  masterVolumePref: MasterVolume
+  sFXVolumePref: SFXVolume
+  bGVolumePref: BGVolume
+  bGGPVolumePref: GPBGVolume
+  muteAudioPref: MuteAudio
+  musicMutePref: MusicMute
+  sFXMutePref: SFXMute
+  controlPref: Controls
+  levelCoinsPref: LevelCoins
+  totalCoinsPref: TotalCoins
+  selectBoughtPref: SelectBoughtPref
+  selectTryOncePref: SelectTryOncePref
+  selectedPref: SelectedIndexPref
+  qualitySettingPref: QualitySetting
+  shadowSettingPref: ShadowSetting
+  cameraFarPref: CameraFar
+  mapPref: MapActiveState
+  speedMeterPref: SpeedMeterType
+  vibrationPref: VibrationActiveState
+  steeringSensitivityPref: SteeringSensitivity
+  trafficDensityPref: TrafficDensity
+  pedestriansDensityPref: PedestrianDensity
+  setupPref: Setup

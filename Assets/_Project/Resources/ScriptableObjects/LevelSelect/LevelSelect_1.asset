@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8799f614e29d48af30843bcb6eeee, type: 3}
+  m_Name: LevelSelect_1
+  m_EditorClassIdentifier: 
+  totalLevels: 5
+  useLevelStatus: 1
+  useMoreThan2Scenes: 0
+  separateLevelNumber:
+    use: 1
+    childIndex: 0
+  levelLock:
+    use: 1
+    childIndex: 2
+  levelToPlay:
+    use: 1
+    childIndex: 0
+  levelComplete:
+    use: 1
+    childIndex: 1
+  scrollSoundDelay: 0.23
+  ContentLeft: 0
+  ContentRight: -200
+  namePref: Mode1LevelsForm
+  isPlayedPref: Mode1LevelPlayedAt
+  isUnlockedPref: Mode1LevelUnlockedAt
+  unlockedLevels: 0
